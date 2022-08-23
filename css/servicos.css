@@ -1,0 +1,79 @@
+.servicos-titulo {
+    background-color: #1f6eae;
+    margin: 0;
+}
+
+.servicos__tituloprincipal {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-top: 2em;
+    /* padding-bottom: 1em; */
+}
+
+.servicos {
+    background-color: #1f6eae;
+    padding: 1em 1em;
+
+}
+
+
+.servicos__card {
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    margin: 2em 1em;
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.servicos__imagem {
+    width: 100%;
+    max-width: 400px;
+}
+
+.servicos__titulo {
+    color: #333333;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.5em 1em;
+}
+
+.servicos__texto {
+    color: #333333;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.servicos__botao {
+    background-color: transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    color: #333333;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    padding: 1em;
+    
+}
+
+.servicos__botao:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .servicos:first-child {
+        flex: none;
+    }
+}
