@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra-superior {
+    display: none;
+}
+
+.tamanho-fonte-nav {
+    font-size: 20px;
+}
+
+.margem-nav {
+    margin-right: 1.5rem;
+}
+
+.margem-logo {
+    margin-left: 0;
+    width: 60%;
+}
+
+.carrossel {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 500px;
+}
+
+.perguntas-e-respostas {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.perguntas {
+    color: #333333!important;
+}
+
+.cards {
+    background-color: #B0B0B0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.card-largura {
+    max-width: 90%;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .margem-logo {
+        margin-left: 2rem;
+        width: 70%;
+    }
+
+    .barra-superior {
+        align-items: center;
+        border-bottom: 1px solid #333333;
+        color: #333333;
+        display: block;
+        padding: 0.3rem 2rem 0.5rem 0;
+
+    }
+
+
+    .barra-contato {
+        align-items: center;
+        display: flex;
+        font-size: 1rem;
+        justify-content: end;
+        margin-top: 0.5rem;
+    }
+
+    .barra-contato-texto {
+        margin: 0 0.8rem;
+    }
+
+
+    .redes {
+        margin: 0 0.5rem;
+    }
+
+    .perguntas-e-respostas {
+        margin: 2rem auto;
+        width: 70%;
+    }
+
+    .mouse-sobre:hover {
+        border-bottom: 1px solid #333333;
+    }
+
+    .card-largura {
+        max-width: 18rem;
+    }
+
+}
