@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra-superior {
+    display: none;
+}
+
+.tamanho-fonte-nav {
+    font-size: 20px;
+}
+
+.margem-nav {
+    margin-right: 1.5rem;
+}
+
+.margem-logo {
+    margin-left: 0;
+    width: 60%;
+}
+
+.carrossel {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 500px;
+}
+
+.perguntas-e-respostas {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.perguntas {
+    color: #333333!important;
+}
+
+
+.cards-titulo {
+    background-color: #969393;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.img-titulo {
+    margin-right: 1rem;
+    width: 60px;
+    margin-bottom: 0;
+}
+
+
+.cards {
+    background-color: #969393;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 0;
+}
+
+.card-largura {
+    max-width: 90%;
+}
+
+
+.aplicadores-titulo {
+    background-color: #FFFFFF;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-carrossel01 {
+    border-radius: 100%;
+    width: 150px;
+    margin: 1rem auto;
+
+}
+
+.alinh-carrossel {
+    justify-content: center;
+}
+
+.conteudo-carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.carrossel2 {
+    height: 550px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .margem-logo {
+        margin-left: 2rem;
+        width: 70%;
+    }
+
+    .barra-superior {
+        align-items: center;
+        border-bottom: 1px solid #333333;
+        color: #333333;
+        display: block;
+        padding: 0.3rem 2rem 0.5rem 0;
+
+    }
+
+
+    .barra-contato {
+        align-items: center;
+        display: flex;
+        font-size: 1rem;
+        justify-content: end;
+        margin-top: 0.5rem;
+    }
+
+    .barra-contato-texto {
+        margin: 0 0.8rem;
+    }
+
+
+    .redes {
+        margin: 0 0.5rem;
+    }
+
+    .perguntas-e-respostas {
+        margin: 2rem auto;
+        width: 70%;
+    }
+
+    .mouse-sobre:hover {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+
+    }
+
+    .card-largura {
+        max-width: 18rem;
+    }
+
+    .conteudo-carrossel {
+        max-width: 600px;
+    }
+
+
+}
